@@ -1,0 +1,16 @@
+/*Escreva um programa que leia o nome de uma pessoa e imprima a seguinte mensagem, 
+na tela: “Bem-vindo(a) à disciplina de Algoritmos e Lógica de Programação II, <nome>”; 
+onde o campo <nome> deve ser substituído pelo nome informado pelo usuário.*/
+
+#include <stdio.h>
+
+int main ()
+{
+	char nome [10];
+	printf ("Insira nome: ");
+	scanf ("%s", &nome);
+	
+    printf ("\nBem vindo a disciplina de logica %s", nome);
+	
+return (0);
+}
